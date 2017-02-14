@@ -1,0 +1,47 @@
+.rodape{
+	color: #FFF;
+    margin-top: 20px;
+	padding-bottom: 60px;
+	background-color: #d1d1d1;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
+    .container {}
+     text-align: left;
+
+        .equipe {	
+			
+            font-family: 500 bold $font_title;
+            color: #000;
+            font-size: 1.5em;
+        }
+}
+@media(min-width:900px){
+.rodape{
+	color: #FFF;
+    margin-top: 20px;
+	padding-bottom: 60px;
+	background-image: url(../img/topo.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
+    .container {}
+     text-align: left;
+
+        .equipe {
+			margin-top: 90px;
+            font-family: 500 bold $font_title;
+            color: #000;
+            font-size: 1.5em;
+        }
+}
+
+}
