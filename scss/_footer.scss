@@ -36,8 +36,17 @@
     .container {}
      text-align: left;
 
+		
+		.equipe1 {
+			background-color: #fff;
+			width: 300px;
+			border-radius: 20px;
+			text-align: left;
+		}
+
         .equipe {
-			margin-top: 90px;
+			margin: 50px 0 0 20px;
+			padding: 10px;
             font-family: 500 bold $font_title;
             color: #000;
             font-size: 1.5em;
